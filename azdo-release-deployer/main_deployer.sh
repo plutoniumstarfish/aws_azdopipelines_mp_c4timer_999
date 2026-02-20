@@ -33,3 +33,6 @@ echo 'export TFVARS_PATH="/opt/agent/tfvars/dev3_use2_v1.tfvars"* >> $VARS
 echo 'export ENV_TAC="dev3_use2_v1"* »> $VARS
 echo 'export ENV_PACKAGE="dev3_v1"' >> $VARS
 else
+echo "no environment $NAME_UPPER found "
+exit 1
+
