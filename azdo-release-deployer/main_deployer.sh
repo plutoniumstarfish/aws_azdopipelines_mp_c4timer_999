@@ -6,3 +6,10 @@ pause () {
   sleep 5
 }
 
+#loadvars for full iac deploys
+loadvars() {
+   echo "Loading Vars ..."
+   VARS=$2
+   NAME_UPPER=$(RELEASE_ENVIRONMENTNAME^^}
+
+   
